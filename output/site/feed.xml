@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>スリープ＆マインドLab</title>
+    <link>https://musclelove-777.github.io/sleep-mental-lab</link>
+    <description>睡眠の質とメンタルヘルスを科学する。エビデンスベースの改善法・サプリ・ガジェットを徹底レビュー</description>
+    <language>ja</language>
+    <lastBuildDate>Sun, 29 Mar 2026 15:17:01 +0900</lastBuildDate>
+    <atom:link href="https://musclelove-777.github.io/sleep-mental-lab/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>スマートリングで睡眠を可視化！最適リング比較と活用術</title>
+      <link>https://musclelove-777.github.io/sleep-mental-lab/articles/smart-ring-sleep-measurement-comparison-guide.html</link>
+      <guid>https://musclelove-777.github.io/sleep-mental-lab/articles/smart-ring-sleep-measurement-comparison-guide.html</guid>
+      <description></description>
+      <category>睡眠ガジェット・グッズ</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>
