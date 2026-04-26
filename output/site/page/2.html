@@ -441,6 +441,41 @@
         .article-body h3 { margin-top: 2rem; margin-bottom: 0.75rem; }
         .article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
         .article-body li { margin-bottom: 0.4em; }
+        /* コンテンツ画像（記事内挿入画像） */
+        .article-body img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .article-body img:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-lg);
+        }
+        .article-body p > img {
+            margin: 2.5rem auto;
+        }
+        /* 画像を囲むfigure要素用 */
+        .article-body figure {
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .article-body figcaption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        /* 画像のレスポンシブ調整 */
+        @media (max-width: 768px) {
+            .article-body img {
+                margin: 1.5rem auto;
+                border-radius: var(--radius-sm);
+            }
+        }
 
         .toc-container {
             background: var(--code-bg); border: 1px solid var(--border);
@@ -701,7 +736,7 @@
         
         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠ガジェット・グッズ.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">睡眠ガジェット・グッズ <span style="opacity:0.6;margin-left:0.25em;">(1)</span></a>
         
-        <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">睡眠の質改善 <span style="opacity:0.6;margin-left:0.25em;">(23)</span></a>
+        <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">睡眠の質改善 <span style="opacity:0.6;margin-left:0.25em;">(24)</span></a>
         
         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/不眠症対策.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">不眠症対策 <span style="opacity:0.6;margin-left:0.25em;">(4)</span></a>
         
@@ -728,7 +763,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/how-to-improve-sleep-quality-science-based.html">睡眠の質 上げる 方法とは？科学が導く心身リセット術</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="category-badge">睡眠の質改善</a>
                     </div>
@@ -747,7 +782,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/nemotemo-tsukare-torerenai-suimin-shitsu-kaizen.html">「寝ても疲れが取れない」を解決！睡眠の質を高める科学的方法</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="category-badge">睡眠の質改善</a>
                     </div>
@@ -766,7 +801,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/suimin-no-shitsu-ageru-houhou-kagakuteki-guide.html">睡眠の質 上げる 方法：科学に基づいた究極ガイド</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="category-badge">睡眠の質改善</a>
                     </div>
@@ -785,7 +820,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/suimin-no-shitsu-ageru-houhou-kagaku.html">睡眠の質を上げる方法：科学が導く快眠への実践ガイド</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="category-badge">睡眠の質改善</a>
                     </div>
@@ -804,7 +839,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/how-to-improve-sleep-quality.html">科学が示す！睡眠の質 上げる 方法とメンタル改善の秘訣</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="category-badge">睡眠の質改善</a>
                     </div>
@@ -823,7 +858,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/untitled-article.html">夜のルーティンで睡眠の質改善！科学的アプローチ</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="category-badge">睡眠の質改善</a>
                     </div>
@@ -842,7 +877,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/suimin-no-shitsu-ageru-houhou.html">究極ガイド：睡眠の質 上げる 方法【科学と実践】</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="category-badge">睡眠の質改善</a>
                     </div>
@@ -861,7 +896,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/suimin-no-shitsu-ageru-houhou-kantan-kagaku.html">睡眠の質を上げる簡単な方法：科学的根拠に基づく快眠ガイド</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html" class="category-badge">睡眠の質改善</a>
                     </div>
@@ -880,7 +915,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/fuminsho-kusuri-nashi-kaizen.html">不眠症 薬なし治し方：科学的アプローチと実践法</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/不眠症対策.html" class="category-badge">不眠症対策</a>
                     </div>
@@ -899,7 +934,7 @@
                 <div class="card-body">
                     <h2 class="card-title"><a href="https://musclelove-777.github.io/sleep-mental-lab/articles/gogatsubyo-symptoms-countermeasures-sleep-mind.html">「五月病」症状と対策を科学的に解説！睡眠と心の整え方</a></h2>
                     <div class="card-meta">
-                        <span>2026-04-24</span>
+                        <span>2026-04-27</span>
                         <span class="reading-time">3分で読める</span>
                         <a href="https://musclelove-777.github.io/sleep-mental-lab/category/メンタルヘルス基礎.html" class="category-badge">メンタルヘルス基礎</a>
                     </div>
@@ -926,6 +961,8 @@
             
                 <a href="https://musclelove-777.github.io/sleep-mental-lab/page/3.html">3</a>
             
+                <a href="https://musclelove-777.github.io/sleep-mental-lab/page/4.html">4</a>
+            
             <a href="https://musclelove-777.github.io/sleep-mental-lab/page/3.html">次へ &raquo;</a>
         </nav>
         
@@ -939,7 +976,7 @@
                 
                 <li><a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠ガジェット・グッズ.html">睡眠ガジェット・グッズ<span class="sidebar-category-count">1</span></a></li>
                 
-                <li><a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html">睡眠の質改善<span class="sidebar-category-count">23</span></a></li>
+                <li><a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html">睡眠の質改善<span class="sidebar-category-count">24</span></a></li>
                 
                 <li><a href="https://musclelove-777.github.io/sleep-mental-lab/category/不眠症対策.html">不眠症対策<span class="sidebar-category-count">4</span></a></li>
                 
@@ -977,7 +1014,7 @@
 
 <li><a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠ガジェット・グッズ.html">睡眠ガジェット・グッズ（1）</a></li>
 
-<li><a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html">睡眠の質改善（23）</a></li>
+<li><a href="https://musclelove-777.github.io/sleep-mental-lab/category/睡眠の質改善.html">睡眠の質改善（24）</a></li>
 
 <li><a href="https://musclelove-777.github.io/sleep-mental-lab/category/不眠症対策.html">不眠症対策（4）</a></li>
 
@@ -998,6 +1035,53 @@
             <div class="footer-copyright">&copy; 2026 スリープ＆マインドLab. All rights reserved.</div>
         </div>
     </footer>
+
+    
+    
+    <section class="network-footer network-fitness"
+             style="margin-top:0;padding:30px 20px;background:#f4f4f4;color:#222;border-top:2px solid #10b981;font-size:0.9rem;">
+        <div style="max-width:900px;margin:0 auto;">
+            <h3 style="margin-bottom:12px;">💪 MuscleLove Fitness Network</h3>
+            <p style="margin-bottom:14px;color:#555;">筋トレ・栄養・ランナー・格闘技・ボディメイクの特化ブログネットワーク。</p>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                
+                <a href="https://musclelove-777.github.io/armwrestling-girls-navi/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Armwrestling Girls Navi</a>
+                
+                <a href="https://musclelove-777.github.io/bodymake-dojo/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Bodymake Dojo</a>
+                
+                <a href="https://musclelove-777.github.io/bodyweight-mastery/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Bodyweight Mastery</a>
+                
+                <a href="https://musclelove-777.github.io/female-physique-queens/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Female Physique Queens</a>
+                
+                <a href="https://musclelove-777.github.io/fighting-girls-navi/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Fighting Girls Navi</a>
+                
+                <a href="https://musclelove-777.github.io/fitness-affiliate-blog/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Fitness Affiliate Blog</a>
+                
+                <a href="https://musclelove-777.github.io/joshi-prowrestling-navi/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Joshi Prowrestling Navi</a>
+                
+                <a href="https://musclelove-777.github.io/muscle-meal-girls/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Muscle Meal Girls</a>
+                
+                <a href="https://musclelove-777.github.io/muscle-science-lab/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Muscle Science Lab</a>
+                
+                <a href="https://musclelove-777.github.io/nutrition-supple-navi/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Nutrition Supple Navi</a>
+                
+                <a href="https://musclelove-777.github.io/overseas-fitness-girls/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Overseas Fitness Girls</a>
+                
+                <a href="https://musclelove-777.github.io/physique-girls-navi/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Physique Girls Navi</a>
+                
+                <a href="https://musclelove-777.github.io/recovery-master/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Recovery Master</a>
+                
+                <a href="https://musclelove-777.github.io/runners-lab/" style="padding:6px 12px;background:#fff;border:1px solid #ccc;border-radius:4px;text-decoration:none;color:#333;">Runners Lab</a>
+                
+            </div>
+            
+            <p style="margin-top:14px;">
+                <a href="https://musclelove-777.github.io/network/fitness/" style="display:inline-block;padding:8px 16px;background:#10b981;color:#fff;border-radius:4px;text-decoration:none;font-weight:600;">🌐 全💪 MuscleLove Fitness Networkを見る</a>
+            </p>
+            
+        </div>
+    </section>
+    
 
     <script>
     (function() {
